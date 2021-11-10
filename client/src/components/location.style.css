@@ -1,0 +1,65 @@
+.card-description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-description p {
+    margin-left: 5px;
+    font-size: small;
+}
+
+.state-online {
+    color: green;
+}
+
+.state-inride {
+  color: red;
+}
+
+.card {
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.card-container {
+  padding: 5px 0px 0px 10px
+}
+
+.button-loadmore {
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-loadmore-container {
+  text-align: center;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.dot-container { 
+  text-align: center;
+  margin: 10px;
+}
