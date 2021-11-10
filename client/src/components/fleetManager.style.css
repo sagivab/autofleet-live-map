@@ -39,7 +39,8 @@
     margin-left: 5%
   }
   .left {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%
   }
   .container {
     display: block;
